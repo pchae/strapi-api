@@ -10,11 +10,11 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.5.5",
+    "@strapi/plugin-i18n": "4.7.1",
     "@strapi/plugin-users-permissions": "^4.9.2",
     "@strapi/provider-upload-cloudinary": "4.5.5",
-    "@strapi/strapi": "4.8.0",
-    "pg": "8.8.0"
+    "@strapi/strapi": "4.9.2",
+    "pg": "8.10.0"
   },
   "author": {
     "name": "Saturdays.io"
