@@ -2015,13 +2015,13 @@
     "@strapi/utils" "4.9.2"
     sendmail "^1.6.1"
 
-"@strapi/provider-upload-cloudinary@4.5.5":
-  version "4.5.5"
-  resolved "https://registry.npmjs.org/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.5.5.tgz"
-  integrity sha512-j+AAdVp7RTiuhMCjTCoGaVI1uSvbiRTQx4RtdtOARWafEAqP6C8z4wOyFiTDyL8UQbreAsCGG4Bs9qbCANuEBw==
+"@strapi/provider-upload-cloudinary@4.9.2":
+  version "4.9.2"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.9.2.tgz#fd1b623c486c8ffbd99224f956bfac357ffadaa6"
+  integrity sha512-uCz/5sPIONLMlKK+WmiSEuMRJa2waos3D/8+cZz3YQ4eXr+u1d2q1ZfvHOAN/B3th0vdcY2V2wg9qy6KV6GshQ==
   dependencies:
-    "@strapi/utils" "4.5.5"
-    cloudinary "^1.30.1"
+    "@strapi/utils" "4.9.2"
+    cloudinary "^1.33.0"
     into-stream "^5.1.0"
 
 "@strapi/provider-upload-local@4.9.2":
@@ -2103,17 +2103,6 @@
     lodash "4.17.21"
     prettier "2.8.4"
     typescript "4.6.2"
-
-"@strapi/utils@4.5.5":
-  version "4.5.5"
-  resolved "https://registry.npmjs.org/@strapi/utils/-/utils-4.5.5.tgz"
-  integrity sha512-Kqdt8wYc6w7RW9JIw0wi6SNDw6OQxmAcUIsZL4IPteRY7x/ACbgqPvfq0LymUc9VE/gAocbm5jG/fRmbbfJcwA==
-  dependencies:
-    "@sindresorhus/slugify" "1.1.0"
-    date-fns "2.29.3"
-    http-errors "1.8.1"
-    lodash "4.17.21"
-    yup "0.32.9"
 
 "@strapi/utils@4.7.1":
   version "4.7.1"
@@ -3453,10 +3442,10 @@ cloudinary-core@^2.10.2:
   resolved "https://registry.npmjs.org/cloudinary-core/-/cloudinary-core-2.13.0.tgz"
   integrity sha512-Nt0Q5I2FtenmJghtC4YZ3MZZbGg1wLm84SsxcuVwZ83OyJqG9CNIGp86CiI6iDv3QobaqBUpOT7vg+HqY5HxEA==
 
-cloudinary@^1.30.1:
-  version "1.35.0"
-  resolved "https://registry.npmjs.org/cloudinary/-/cloudinary-1.35.0.tgz"
-  integrity sha512-0aRLVOaVsoiqDCNkSzlPGR/oYOlE3AGrtwFTPx7xlZCPyKNzqeD9t9ENmPwzHn3yn/afAvy4h1sqb2yPyJOAow==
+cloudinary@^1.33.0:
+  version "1.36.1"
+  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.36.1.tgz#4fe45acaf7452afd00ecb446fd3e7c5c7f874939"
+  integrity sha512-5W9gsA2qazJygT430rmetD+Sat9R9xwGjD9NMhGPz9RmfZQ/Xk6KeqRl/FVlejWavt7hOBS79S16TCqNQSwCsQ==
   dependencies:
     cloudinary-core "^2.10.2"
     core-js "^3.6.5"
