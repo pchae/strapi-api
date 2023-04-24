@@ -22,6 +22,6 @@ This example deploys self-hosted version of [Strapi](https://strapi.io/). Intern
 
 - If you do not add the Cloudinary related environment variables, your images/files will not be persisted between deploys.
 
-## 📝 Notes
+## Notes
 
 - After your app is deployed, visit the `/admin` endpoint to create your admin user.
