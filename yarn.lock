@@ -2340,13 +2340,13 @@
     "@strapi/utils" "4.10.6"
     sendmail "^1.6.1"
 
-"@strapi/provider-upload-cloudinary@4.10.5":
-  version "4.10.5"
-  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.10.5.tgz#5617ab0aa5242ec4d188889f73df702fd9968288"
-  integrity sha512-0BxXXy7oO/gQg+IBh4IJsl0EH/1dNzWzG+Pd9Ksfz/xDwQ5fo+QUFpcoytqk6qai0SjWWdYbguDOULzDJfenQg==
+"@strapi/provider-upload-cloudinary@4.10.7":
+  version "4.10.7"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.10.7.tgz#b7b1db3dae125cd4d29b6ff7252e1aa274d48e30"
+  integrity sha512-uFYJRMFHjLb6Gh9h9TjCFvB/F4OaNtJ55bmd/ngJYMOhivpsA4Tqs242GdoYswpMO+iaFY+IMyx/Dw+fIeDInQ==
   dependencies:
-    "@strapi/utils" "4.10.5"
-    cloudinary "^1.33.0"
+    "@strapi/utils" "4.10.7"
+    cloudinary "^1.37.0"
     into-stream "^5.1.0"
 
 "@strapi/provider-upload-local@4.10.6":
@@ -2455,18 +2455,6 @@
     "@radix-ui/react-visually-hidden" "^1.0.2"
     aria-hidden "^1.2.3"
     react-remove-scroll "^2.5.5"
-
-"@strapi/utils@4.10.5":
-  version "4.10.5"
-  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.10.5.tgz#8a20df57913b8db22634243016664599b0b1c678"
-  integrity sha512-Nz3YWJbhYuzAVRnD078cTYm4hGnfnLZL2xvJoH6QCOMro3RCPawyaAjOcsLQleKaUyhVjz12b2h5wIercfhuMQ==
-  dependencies:
-    "@sindresorhus/slugify" "1.1.0"
-    date-fns "2.29.3"
-    http-errors "1.8.1"
-    lodash "4.17.21"
-    p-map "4.0.0"
-    yup "0.32.9"
 
 "@strapi/utils@4.10.6":
   version "4.10.6"
@@ -3849,20 +3837,20 @@ clone@^1.0.2:
   resolved "https://registry.npmjs.org/clone/-/clone-1.0.4.tgz"
   integrity sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==
 
-cloudinary-core@^2.10.2:
+cloudinary-core@2.13.0:
   version "2.13.0"
-  resolved "https://registry.npmjs.org/cloudinary-core/-/cloudinary-core-2.13.0.tgz"
+  resolved "https://registry.yarnpkg.com/cloudinary-core/-/cloudinary-core-2.13.0.tgz#b59f90871b6c708c3d0735b9be47ac08181c57fb"
   integrity sha512-Nt0Q5I2FtenmJghtC4YZ3MZZbGg1wLm84SsxcuVwZ83OyJqG9CNIGp86CiI6iDv3QobaqBUpOT7vg+HqY5HxEA==
 
-cloudinary@^1.33.0:
-  version "1.36.1"
-  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.36.1.tgz#4fe45acaf7452afd00ecb446fd3e7c5c7f874939"
-  integrity sha512-5W9gsA2qazJygT430rmetD+Sat9R9xwGjD9NMhGPz9RmfZQ/Xk6KeqRl/FVlejWavt7hOBS79S16TCqNQSwCsQ==
+cloudinary@^1.37.0:
+  version "1.37.0"
+  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.37.0.tgz#26daefc8794e397d21350242d075eca05d744ece"
+  integrity sha512-hCAb3kU2nqjaHxDHxh+bi691A6LEuF68A2jHvYR5wDhDxx5qNRJLYqABbmxP6TQJriJd0Tq309fZvzBXkTW6sw==
   dependencies:
-    cloudinary-core "^2.10.2"
-    core-js "^3.6.5"
-    lodash "^4.17.21"
-    q "^1.5.1"
+    cloudinary-core "2.13.0"
+    core-js "3.30.1"
+    lodash "4.17.21"
+    q "1.5.1"
   optionalDependencies:
     proxy-agent "^5.0.0"
 
@@ -4157,10 +4145,10 @@ core-js-pure@^3.23.3, core-js-pure@^3.25.1:
   resolved "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.30.1.tgz"
   integrity sha512-nXBEVpmUnNRhz83cHd9JRQC52cTMcuXAmR56+9dSMpRdpeA4I1PX6yjmhd71Eyc/wXNsdBdUDIj1QTIeZpU5Tg==
 
-core-js@^3.6.5:
-  version "3.30.0"
-  resolved "https://registry.npmjs.org/core-js/-/core-js-3.30.0.tgz"
-  integrity sha512-hQotSSARoNh1mYPi9O2YaWeiq/cEB95kOrFb4NCrO4RIFt1qqNpKsaE+vy/L3oiqvND5cThqXzUU3r9F7Efztg==
+core-js@3.30.1:
+  version "3.30.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.30.1.tgz#fc9c5adcc541d8e9fa3e381179433cbf795628ba"
+  integrity sha512-ZNS5nbiSwDTq4hFosEDqm65izl2CWmLz0hARJMyNQBgkUZMIF51cQiMvIQKA6hvuaeWxQDP3hEedM1JZIgTldQ==
 
 core-util-is@^1.0.2, core-util-is@~1.0.0:
   version "1.0.3"
@@ -8208,9 +8196,9 @@ purest@4.0.2:
     request-multipart "^1.0.0"
     request-oauth "^1.0.1"
 
-q@^1.5.1:
+q@1.5.1:
   version "1.5.1"
-  resolved "https://registry.npmjs.org/q/-/q-1.5.1.tgz"
+  resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha512-kV/CThkXo6xyFEZUugw/+pIOywXcDbFYgSct5cT3gqlbkBE1SJdwy6UQoZvodiWF/ckQLZyDE/Bu1M6gVu5lVw==
 
 qs@6.11.0:
