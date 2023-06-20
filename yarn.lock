@@ -2360,12 +2360,12 @@
     "@strapi/utils" "4.11.1"
     sendmail "^1.6.1"
 
-"@strapi/provider-upload-cloudinary@4.10.7":
-  version "4.10.7"
-  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.10.7.tgz#b7b1db3dae125cd4d29b6ff7252e1aa274d48e30"
-  integrity sha512-uFYJRMFHjLb6Gh9h9TjCFvB/F4OaNtJ55bmd/ngJYMOhivpsA4Tqs242GdoYswpMO+iaFY+IMyx/Dw+fIeDInQ==
+"@strapi/provider-upload-cloudinary@4.11.1":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.11.1.tgz#0b8aaa0b3785326ede48c458a54d934d314a53a1"
+  integrity sha512-lGX0O+1lFHYy4JPOhPjXJ0nJqxYCcva2Qmvp4n0mTLNvAniDO3FBSy/VqGISJEONRJ0JxZdFkH6ojnnzRODdXw==
   dependencies:
-    "@strapi/utils" "4.10.7"
+    "@strapi/utils" "4.11.1"
     cloudinary "^1.37.0"
     into-stream "^5.1.0"
 
@@ -2475,18 +2475,6 @@
     "@radix-ui/react-visually-hidden" "^1.0.3"
     aria-hidden "^1.2.3"
     react-remove-scroll "^2.5.5"
-
-"@strapi/utils@4.10.7":
-  version "4.10.7"
-  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.10.7.tgz#2cf1aa5958c353e1a1b2e7d3de5e55eff1006cbc"
-  integrity sha512-LyTcpsdcJ6Dq/33eblSU4pN4Yb9VnARA6K5/66cmTTQH34C2bKqkozm7wjK+Y1smK5HA2nvHQiZfpoDtqI0NmA==
-  dependencies:
-    "@sindresorhus/slugify" "1.1.0"
-    date-fns "2.30.0"
-    http-errors "1.8.1"
-    lodash "4.17.21"
-    p-map "4.0.0"
-    yup "0.32.9"
 
 "@strapi/utils@4.11.1":
   version "4.11.1"
