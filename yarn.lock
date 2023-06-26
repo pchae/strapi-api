@@ -2360,12 +2360,12 @@
     "@strapi/utils" "4.11.1"
     sendmail "^1.6.1"
 
-"@strapi/provider-upload-cloudinary@4.11.1":
-  version "4.11.1"
-  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.11.1.tgz#0b8aaa0b3785326ede48c458a54d934d314a53a1"
-  integrity sha512-lGX0O+1lFHYy4JPOhPjXJ0nJqxYCcva2Qmvp4n0mTLNvAniDO3FBSy/VqGISJEONRJ0JxZdFkH6ojnnzRODdXw==
+"@strapi/provider-upload-cloudinary@4.11.2":
+  version "4.11.2"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.11.2.tgz#d0f82807027b915c4c576d81b7ba7867352f73b0"
+  integrity sha512-9NfIhWkpOuJvArHuQx1W4SnXkC8JoD1eAF5eBxpCKs1XYxyFf+8y2bJYEIA1JOHtLx4RqAUQyDoSWRjFmfKZPg==
   dependencies:
-    "@strapi/utils" "4.11.1"
+    "@strapi/utils" "4.11.2"
     cloudinary "^1.37.0"
     into-stream "^5.1.0"
 
@@ -2480,6 +2480,18 @@
   version "4.11.1"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.11.1.tgz#7e695f4dd919fc6e1e3a4f50bfa6cebced4ab29e"
   integrity sha512-X+it/AS1uclrU88OefvCL+imLTLA9cD0NmaaZR7v/PwEIUlDMTcnUZ8gZJVMdy96vU7ZH+rcaRoh4pYGPo41+Q==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.30.0"
+    http-errors "1.8.1"
+    lodash "4.17.21"
+    p-map "4.0.0"
+    yup "0.32.9"
+
+"@strapi/utils@4.11.2":
+  version "4.11.2"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.11.2.tgz#feb5fbe967c126465521750f80dacb0501911deb"
+  integrity sha512-3qUxNMWN2rDXtTBR7j/6ViTYMgbMLwGbblTEnVvAsh/JVVZp826/LUOk8egcmHLLZLjQiruGu+7yYNoMc0XUTg==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "2.30.0"
