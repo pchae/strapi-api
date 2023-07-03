@@ -14,7 +14,7 @@
     "@strapi/plugin-users-permissions": "^4.11.1",
     "@strapi/provider-upload-cloudinary": "4.11.1",
     "@strapi/strapi": "4.11.3",
-    "pg": "8.11.0"
+    "pg": "8.11.1"
   },
   "author": {
     "name": "Saturdays.io"
