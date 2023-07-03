@@ -2195,22 +2195,6 @@
     plop "2.7.6"
     pluralize "8.0.0"
 
-"@strapi/helper-plugin@4.11.1":
-  version "4.11.1"
-  resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-4.11.1.tgz#696ad5e9fe286a6d4184b45b44058565cd119518"
-  integrity sha512-tg9KdGScz3nlt93EHL95qjQaXB/wvqIz/fJy/6uYi6RI19k2J6XluxT5W1ooYqcK3O6QQ8J2Jr1i3NfOp7Xd1g==
-  dependencies:
-    axios "1.4.0"
-    date-fns "2.30.0"
-    formik "^2.4.0"
-    immer "9.0.19"
-    lodash "4.17.21"
-    prop-types "^15.8.1"
-    qs "6.11.1"
-    react-helmet "^6.1.0"
-    react-intl "6.4.1"
-    react-select "5.7.0"
-
 "@strapi/helper-plugin@4.11.3":
   version "4.11.3"
   resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-4.11.3.tgz#eb414b11683c652f1054bcb07e44d135419d725c"
@@ -2337,15 +2321,15 @@
     sharp "0.32.0"
     yup "^0.32.9"
 
-"@strapi/plugin-users-permissions@^4.11.1":
-  version "4.11.1"
-  resolved "https://registry.yarnpkg.com/@strapi/plugin-users-permissions/-/plugin-users-permissions-4.11.1.tgz#43d812457b18f6d2ba633abad92c0edb9900a12a"
-  integrity sha512-+dpymBA19GvaMWY6QToxGC80RtSkP0SHHbTQ1zxnvkTCmQHfCu4GxOJfbPzQYFOV5X+5rEJ52WkWEYX3FBQDuw==
+"@strapi/plugin-users-permissions@^4.11.3":
+  version "4.11.3"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-users-permissions/-/plugin-users-permissions-4.11.3.tgz#2852b6d41b3a912347a35c49ae0836cdc332d30c"
+  integrity sha512-4TP4gfPtXRir+WJYqCIBSHwIzFNX8NZf2ALlFLl5K3HD9Pc3X0DH3/dPC248WXP1M3JJI2gGHCctpr6nMj9MMQ==
   dependencies:
     "@strapi/design-system" "1.8.0"
-    "@strapi/helper-plugin" "4.11.1"
+    "@strapi/helper-plugin" "4.11.3"
     "@strapi/icons" "1.8.0"
-    "@strapi/utils" "4.11.1"
+    "@strapi/utils" "4.11.3"
     bcryptjs "2.4.3"
     formik "2.4.0"
     grant-koa "5.4.8"
