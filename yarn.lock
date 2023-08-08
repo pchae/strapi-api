@@ -1443,13 +1443,13 @@
     "@strapi/utils" "4.12.0"
     sendmail "^1.6.1"
 
-"@strapi/provider-upload-cloudinary@4.12.0":
-  version "4.12.0"
-  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.12.0.tgz#5d61fcecbb393484b98a75d91c56703ebfc744fa"
-  integrity sha512-Jz/A3XbYyv7qXt9Xt70Jx3B1fDnY+KNadzi1QsIYH8GHpQnYG+0AGviLH46oQ/H2cZ2O908A7+GMVjuV/6S9OA==
+"@strapi/provider-upload-cloudinary@4.12.1":
+  version "4.12.1"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.12.1.tgz#7ac217968176d5f6005560891b40eb7ba8c8a3b0"
+  integrity sha512-86Ie1cepeL+8NFu6bDoxMx/+kqOiz59Clb1NvBc3IE4d3XIalYI197KsTVGC8YAguA3bQS9BoZpx0sgwFGSXTA==
   dependencies:
-    "@strapi/utils" "4.12.0"
-    cloudinary "^1.38.0"
+    "@strapi/utils" "4.12.1"
+    cloudinary "^1.39.0"
     into-stream "^5.1.0"
 
 "@strapi/provider-upload-local@4.12.0":
@@ -2883,10 +2883,10 @@ cloudinary-core@^2.13.0:
   resolved "https://registry.yarnpkg.com/cloudinary-core/-/cloudinary-core-2.13.0.tgz#b59f90871b6c708c3d0735b9be47ac08181c57fb"
   integrity sha512-Nt0Q5I2FtenmJghtC4YZ3MZZbGg1wLm84SsxcuVwZ83OyJqG9CNIGp86CiI6iDv3QobaqBUpOT7vg+HqY5HxEA==
 
-cloudinary@^1.38.0:
-  version "1.39.0"
-  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.39.0.tgz#3f4a103ab36daae85705d9240d17b3583978eea2"
-  integrity sha512-xVCzduGsEgYWe/xnbB6rrx56NCvPtqJGh+G6aTSdattxpuewgFH9S/7JCIatLQcBw2JzkJKAYJ1wdRg/QiRFlw==
+cloudinary@^1.39.0:
+  version "1.40.0"
+  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.40.0.tgz#34a7de414b4526021c8e25cc66c3122721d91be6"
+  integrity sha512-Fifkl8NRw/M+Enw4cKCXc6e0Or28c5y6RVGYS3OCLzT1W8EfBt416FURhLuuL/S4BCVv8bSilmnM746kCtth3g==
   dependencies:
     cloudinary-core "^2.13.0"
     core-js "^3.30.1"
